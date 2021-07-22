@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+h1, h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%)  ;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 0px;
+    padding: 90px 25px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px;
+}
+
+.card1 figure{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.card1 h1{
+    letter-spacing: 2px;
+    margin-bottom: 42px;
+}
+
+.card1 p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.card1 button{
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    margin: 0px;
+    padding: 50px;
+}
+
+.card2 figure{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.card2 h1{
+    letter-spacing: 3px;
+    margin-bottom: 42px;
+}
+
+.card2 p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.card2 button{
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 50px;
+    color: hsl(184, 100%, 22%);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    margin: 0px;
+    padding: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card3 figure{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.card3 h1{
+    letter-spacing: 3px;
+    margin-bottom: 42px;
+}
+
+.card3 p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.card3 button{
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 50px;
+    color: hsl(179, 100%, 13%);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+footer{
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px){
+
+    body{
+        background-color: hsl(0, 0%, 95%);
+        margin: 0px;
+        padding: 150px 240px;
+    }
+
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card1{
+        background-color: hsl(31, 77%, 52%);
+        margin: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        padding: 50px;
+    }
+
+    .card1 h1{
+        letter-spacing: 2px;
+        margin-bottom: 27px;
+    }
+
+    .card1 p{
+        line-height: 24px;
+        margin-bottom: 85px;
+        width: 100%;
+    }
+
+    .card2 p{
+        line-height: 24px;
+        margin-bottom: 85px;
+        width: 100%;
+    }
+
+    .card3{
+        background-color: hsl(179, 100%, 13%);
+        margin: 0px;
+        padding: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+
+    .card3 p{
+        line-height: 24px;
+        margin-bottom: 85px;
+        width: 110%;
+    }
+
+    .card1 button:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+    .card2 button:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+    .card3 button:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+}
